@@ -1,0 +1,42 @@
+body {
+    background-color: white ;
+
+}
+#formContainer {
+    background-color: #f0f8ff;
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px 20px 20px 20px;
+}
+.label {
+  font-weight: bold;
+}
+
+.required {
+  color: red;
+}
+
+.button-center {
+  text-align: center;
+  padding: 20px 0px 10px 0px;
+}
+p {
+    margin: 0px 0px 0px 0px;
+    font-size: 14px;
+
+}
+#listContainer {
+  width: 800px;
+  margin: 40px auto; 
+  text-align: center;
+
+
+}
+#studentTable {
+    width: 100%;
+    background-color: #f9f9f9;
+    border-collapse: collapse;
+
+}
+th, td { padding: 8px 10px 8px 10px;
+}
