@@ -1,0 +1,50 @@
+body {
+  background-color: darkgray; 
+  font-family: Arial, sans-serif;
+}
+
+
+.container {
+  width: 450px;
+  margin: 50px auto; /* margin auto দিলে বক্সটি নিজে নিজেই ডানে-বামে Center হয়ে যায় */
+  background-color: #f4f4f4; /* হালকা (Light) কালার */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+
+label {
+  font-weight: bold; 
+  display: block;
+  margin-top: 10px;
+}
+
+
+input {
+  width: 95%;
+  padding: 5px;
+  margin-top: 3px;
+}
+
+
+.star, .error {
+  color: red; 
+}
+
+
+.error {
+  font-size: 13px;
+  display: block;
+}
+
+
+.btn-center {
+  text-align: center; 
+  margin-top: 15px;
+}
+
+button {
+  padding: 8px 25px;
+  font-size: 16px;
+  cursor: pointer; 
+}
